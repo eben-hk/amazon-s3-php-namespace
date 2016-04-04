@@ -1,6 +1,6 @@
 <?php
 
-use eben
+namespace eben;
 
 /**
 * $Id$
@@ -2065,7 +2065,7 @@ final class S3Request
 
 
 		$this->headers['Date'] = gmdate('D, d M Y H:i:s T');
-		$this->response = new STDClass;
+		$this->response = new \STDClass;
 		$this->response->error = false;
 		$this->response->body = null;
 		$this->response->headers = array();
@@ -2374,7 +2374,7 @@ final class S3Request
  * @version 0.5.0-dev
  */
 
-class S3Exception extends Exception {
+class S3Exception extends \Exception {
 	/**
 	 * Class constructor
 	 *
