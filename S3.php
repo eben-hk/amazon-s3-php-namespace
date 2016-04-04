@@ -1,4 +1,7 @@
 <?php
+
+use eben
+
 /**
 * $Id$
 *
