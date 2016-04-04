@@ -1,13 +1,13 @@
 {
-    "name": "tpyo/amazon-s3-php-class",
-    "description": "A standalone Amazon S3 (REST) client for PHP 5.2.x using CURL that does not require PEAR.",
+    "name": "eben-hk/amazon-s3-php-namespace",
+    "description": "A standalone Amazon S3 (REST) client for PHP 5.2.x using CURL that does not require PEAR and using namespace.",
     "type": "library",
-    "homepage": "https://github.com/tpyo/amazon-s3-php-class",
+    "homepage": "https://github.com/eben-hk/amazon-s3-php-namespace",
     "license": "BSD-2-Clause",
     "authors": [
         {
-            "name": "Donovan Schönknecht",
-            "email": "don@tpyo.net"
+            "name": "Eben Katilik",
+            "email": "ekatilik@gmail.com"
         }
     ],
     "require": {
